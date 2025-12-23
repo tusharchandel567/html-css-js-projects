@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopper Template</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        .brand-title {
+            font-size: 25px;
+            font-weight: bold;
+        }
+        header {
+            font-size: 23px;
+            font-family: Arial;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        nav span {
+            margin-right: 20px;
+        }
+        .shortcut-buttons span {
+            margin-right: 20px;
+        }
+        article {
+            background-color: black;
+            font-size: 18px;
+            padding: 10px;
+            color:white;
+            text-align: center;
+        }
+        .bi-lightning-fill {
+            color:gold;
+        }
+        section {
+            height: 400px;
+        }
+        footer {
+            background-color: black;
+            padding: 20px;
+            color:white;    
+            display: grid;
+            grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+        }
+        .footer-title {
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-family: Arial;
+        }
+        .footer-brand-title {
+            font-size: 30px;
+            font-family: Arial;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .footer-title~span {
+            display: block;
+            margin-bottom: 15px;
+            font-family: Arial;
+        }
+        address span {
+            display: block;
+            margin-bottom: 15px;
+            font-family: Arial;
+        }
+        .footer-brand-title~div span {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+   <header>
+       <div>
+        <span class="brand-title">Shopper</span>
+       </div>
+       <nav>
+        <span>Home</span>
+        <span>Shop</span>
+        <span>Pages</span>
+        <span>Catalog</span>
+        <span>Blog</span>
+        <span>Docs</span>
+       </nav>
+       <div class="shortcut-buttons">
+          <span class="bi bi-search"></span>
+          <span class="bi bi-person"></span>
+          <span class="bi bi-heart"></span>
+          <span class="bi bi-cart3"></span>
+       </div>
+   </header>
+   <article>
+        <span class="bi bi-lightning-fill"></span>
+        <span>HAPPY HOLIDAY DEALS ON EVERYTHING</span>
+        <span class="bi bi-lightning-fill"></span>
+   </article>
+   <section>
+ 
+   </section>
+   <footer>
+        <div>
+            <div class="footer-brand-title">Shopper</div>
+            <div>
+                <span class="bi bi-facebook"></span>
+                <span class="bi bi-youtube"></span>
+                <span class="bi bi-twitter"></span>
+                <span class="bi bi-instagram"></span>
+            </div>
+        </div>
+        <div>
+            <div class="footer-title">SUPPORT</div>
+            <span>Contact Us</span>
+            <span>FAQs</span>
+            <span>Size Guide</span>
+            <span>Shipping & Returns</span>
+        </div>
+        <div>
+            <div class="footer-title">SHOP</div>
+            <span>Men's Shopping</span>
+            <span>Women's Shopping</span>
+            <span>Kids' Shopping</span>
+            <span>Discounts</span>
+        </div>
+        <div>
+            <div class="footer-title">COMPANY</div>
+            <span>Our Story</span>
+            <span>Careers</span>
+            <span>Terms & Conditions</span>
+            <span>Privacy & Cookie policy</span>
+        </div>
+        <div>
+            <div class="footer-title">CONTACT</div>
+            <address>
+                <span>1-202-555-0105</span>
+                <span>1-202-555-0106</span>
+                <span>help@shopper.com</span>
+            </address>
+        </div>
+   </footer>
+</body>
+</html>
+ 

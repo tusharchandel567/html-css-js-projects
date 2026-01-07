@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart-Mobiles</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        .product {
+            display: grid;
+            grid-template-columns: 2fr 7fr 3fr;
+            grid-gap: 20px;
+        }
+        ul {
+            margin-left: -25px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .rating{
+            background-color: green;
+            color:white;
+            padding: 3px;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Websites are hosted on <span title="Server resembles both hardware and software that satisfies the client request by sending and receving data.">Server*</span>.
+    </div>
+    <font face="Arial">
+    <div class="product">
+        
+        <div>
+            <img src="public/docs/images/phone.png" title="30% OFF on Realme Mobiles" alt="Please enable images on your browser">
+        </div>
+        <div>
+            <h2><font color="blue">realme C55 (Rainforest, 128 GB)</font></h2>
+            <div>
+                <span class="rating"> 4.4 <span class="bi bi-star-fill"></span> </span> <span class="reviews"> <b><font color="gray"> 17,000 reviews & 500 ratings</font></b> </span>
+            </div>
+            <div>
+                <font color="gray">
+                    <ul>
+                        <li>8 GB RAM | 128 GB ROM | Expandable Upto 1 TB</li>
+                        <li>17.07 cm (6.72 inch) Full HD+ Display</li>
+                        <li>64MP + 2MP | 8MP Front Camera</li>
+                        <li>5000 mAh Battery</li>
+                        <li>Helio G88 Processor</li>
+                        <li>1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories</li>
+                    </ul>
+                </font>
+            </div>
+        </div>
+        <div>
+            <h1>&#8377; 13,999</h1>
+            <div>
+                <span><strike>15,999</strike></span> 
+                <span><font color="green">12% Off</font></span>
+            </div>
+            <br>
+            <div>
+                Free delivery by <b>Today</b>
+            </div>
+            <br>
+            <div>
+                <font color="green"><b>Bank Offer</b></font>
+            </div>
+        </div>
+    
+    </div>
+    <hr size="2" noshade color="gray">
+    <div class="product">
+        
+        <div>
+            <img src="public/docs/images/phone.png" alt="Image here..">
+        </div>
+        <div>
+            <h2><font color="blue">realme C55 (Rainforest, 64 GB)</font></h2>
+            <div>
+                <span class="rating"> 4.4 <span class="bi bi-star-fill"></span> </span> <span class="reviews"> <b><font color="gray"> 17,000 reviews & 500 ratings</font></b> </span>
+            </div>
+            <div>
+                <font color="gray">
+                    <ul>
+                        <li>8 GB RAM | 64 GB ROM | Expandable Upto 1 TB</li>
+                        <li>17.07 cm (6.72 inch) Full HD+ Display</li>
+                        <li>64MP + 2MP | 8MP Front Camera</li>
+                        <li>5000 mAh Battery</li>
+                        <li>Helio G88 Processor</li>
+                        <li>1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories</li>
+                    </ul>
+                </font>
+            </div>
+        </div>
+        <div>
+            <h1>&#8377; 11,999</h1>
+            <div>
+                <span><strike>15,999</strike></span> 
+                <span><font color="green">12% Off</font></span>
+            </div>
+            <br>
+            <div>
+                Free delivery by <b>Today</b>
+            </div>
+            <br>
+            <div>
+                <font color="green"><b>Bank Offer</b></font>
+            </div>
+        </div>
+    
+    </div>
+</font>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

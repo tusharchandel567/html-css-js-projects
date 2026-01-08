@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Document</title>
+    <style>
+        .card {
+            width: 220px;
+            padding:5px;
+            margin:10px;
+            box-shadow: 2px 2px 2px 2px;
+        }
+        .card-header img {
+            width: 100%;
+            height: 150 px;
+        }
+        .card-header {
+            height: 150px;
+        }
+        .card-body {
+            height:100px;
+            text-align: center;
+        }
+        .card-title {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        .rating {
+            color:goldenrod;
+        }
+        .card-button {
+            width: 100%;
+            height: 20px;
+            font-size: 18px;
+            padding: 4px;
+            background-color: darkcyan;
+            color: white;
+            text-align: center;
+        }
+        main{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="card">
+           <div class="card-header">
+                <img src="public/docs/images/Java.png">
+           </div>
+           <div class="card-body">
+               <div class="card-title">Java Fullstack </div>
+               <div class="rating">
+                   <span class="bi bi-star-fill"></span>
+                   <span class="bi bi-star-fill"></span>
+                   <span class="bi bi-star-fill"></span>
+                   <span class="bi bi-star-fill"></span>
+                   <span class="bi bi-star-fill"></span>
+               </div>
+                  </div>
+                   <div class="card-footer">
+                    <div class="card-button">
+                        Join Course
+               </div>
+           </div>
+        </div>
+           <div class="card">
+           <div class="card-header">
+                <img src="public/docs/images/Data_Analytics.png">
+           </div>
+           <div class="card-body">
+               <div class="card-title">Data Analytics </div>
+               <div class="rating">
+                   <span class="bi bi-star-fill"></span>
+                   <span class="bi bi-star-fill"></span>
+                   <span class="bi bi-star-fill"></span>
+                   <span class="bi bi-star-fill"></span>
+                   <span class="bi bi-star-fill"></span>
+               </div>
+                </div>
+                   <div class="card-footer">
+                    <div class="card-button">
+                        Join Course
+               </div>
+           </div>
+           </div>
+           <div class="card">
+           <div class="card-header">
+                <img src="public/docs/images/Data_Sci_(1).png">
+           </div>
+           <div class="card-body">
+               <div class="card-title">Data Science & AI</div>
+               <div class="rating">
+                   <span class="bi bi-star-fill"></span>
+                   <span class="bi bi-star-fill"></span>
+                   <span class="bi bi-star-fill"></span>
+                   <span class="bi bi-star-fill"></span>
+                   <span class="bi bi-star-fill"></span>
+               </div>
+                </div>
+                   <div class="card-footer">
+                    <div class="card-button">
+                        Join Course
+               </div>
+           </div>
+           </div>
+           <div class="card">
+           <div class="card-header">
+                <img src="public/docs/images/DevOps_with_Multi_Cloud_Online_Training_thumb.jpg">
+           </div>
+           <div class="card-body">
+               <div class="card-title">Devops awsor multi clouds </div>
+               <div class="rating">
+                   <span class="bi bi-star-fill"></span>
+                   <span class="bi bi-star-fill"></span>
+                   <span class="bi bi-star-fill"></span>
+                   <span class="bi bi-star-fill"></span>
+                   <span class="bi bi-star-fill"></span>
+                   </div>
+                   </div>
+                   <div class="card-footer">
+                    <div class="card-button">
+                        Join Course
+               </div>
+           </div>
+        </div>
+    </main>
+</body>
+</html>

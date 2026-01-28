@@ -1,0 +1,24 @@
+{
+  "name": "html-css-js-projects",
+  "version": "1.0.0",
+  "description": "A well-structured collection of real-world web design and frontend projects built using HTML, CSS, and JavaScript. This repository focuses on strong fundamentals, responsive layouts, clean UI design, JavaScript logic, and DOM manipulation, created through consistent daily practice as part of a professional frontend development journey.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tusharchandel567/html-css-js-projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tusharchandel567/html-css-js-projects/issues"
+  },
+  "homepage": "https://github.com/tusharchandel567/html-css-js-projects#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.13.1"
+  }
+}
